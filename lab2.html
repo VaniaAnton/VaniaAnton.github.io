@@ -1,0 +1,163 @@
+<!-- Ivan Anton EIRFUC-22 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <style>
+        body {
+            background-color: rgb(219, 219, 223);
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            font-family: "Times New Roman", Times, serif;
+            font-size: 15px;
+            font-weight: normal;
+            background-color: rgb(219, 219, 223);
+            padding: 20px;
+            border-bottom: 1px solid black;
+            border-radius: 10%;
+            border: 1px solid black;
+        }
+        header h1 {
+            text-align: center;
+            font-size: 50px;
+            margin: 0;
+        }
+
+        header nav, #main-service {
+            text-align: center;
+        }
+
+        header nav ul, #main-service ul , #main-info ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header nav ul li , #main-service ul li, #main-info ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        header nav ul li a, #main-service ul li a, #main-info ul li a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+
+        header nav ul li a:hover, #main-service ul li a:hover, #main-info ul li a:hover {
+            color: darkgreen;
+        }
+        header nav ul li a:active, #main-service ul li a:active, #main-info ul li a:active {
+            color: darkred;
+        }
+
+        #main-text, #main-info, footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 5px;
+        }
+
+        p {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 18px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My portfolio</h1>
+        <nav>
+            <p>Contacts</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/vania-anton-b88760223/">LinkedIn</a></li>
+                <li><a href="https://github.com/VaniaAnton">GitHub</a></li>
+                <li><a href="https://www.instagram.com/5_vania_5/">Instagram</a></li>
+                <li><a href="https://t.me/vania_anton">Telegram</a></li>
+                <li>Email: <a href="mailto:example@example.com">example@example.com</a></li>
+                <li>Phone: <a href="tel:+1234567890">+1234567890</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="main-text">
+            <img src="images/cpp-icon.png" alt="C++ icon">
+            <h2>C++ Application developer</h2>
+        </section>
+        <hr role="presentation">
+        <section id="main-info" dir="ltr">
+            <h2 id="main-about">About me</h2>
+            <p>My full name is Ivan Anton. I am 18 years old. I am a student of Vilnius Gedemino Technikal University, Faculty of Electronics. <br>I am studying Information and Communication Technologies. I am a motivated person with strong knowledge in C++ programming language. <br>I am looking for a job as a C++ Application developer.</p>
+            <h2 id="main-education">Education</h2>
+            <ul>
+                <li>2011-2022 - Khust 3rd gymnasium</li><br>
+                <li>2022-2026 - Vilnius Gedemino Technikal University, Faculty of Electronics, Information and Communication Technologies</li>
+            </ul>
+            <h2 id="main-skills">Skills</h2>
+            <ul>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>C#</li>
+            </ul>
+            <h2 id="main-experience">Experience</h2>
+            <ul>
+                <li>2022 - HTML/CSS(Freelance)</li><br>
+                <li>2023 - C++(self-projects)</li>
+            </ul>
+            <h2 id="main-projects">Projects</h2>
+            <ul>
+                <li>2022 - C++ game <a href="https://github.com/VaniaAnton/Black_Jack">"Black Jack"</a></li><br>
+                <li>2023 - C++ <a href="https://github.com/VaniaAnton/Algorithms-and-data-structure">Data structure and Algorithms</a></li>
+            </ul>
+        </section>
+        <hr role="presentation">
+        <section id="main-service">
+            <h2>Useful youtube chanels</h2>
+            <ul>
+                <li>
+                    <audio controls autoplay>
+                        <source src="audio/music.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </li>
+                <li>
+                    <video width="320" height="240" controls>
+                        <source src="videos/IMG_7572.MP4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </li>
+                <li>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/vLnPwxZdW4Y?control=1" frameborder="0"
+                        allowfullscreen>
+                    </iframe>
+                </li>
+                <li>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/HXV3zeQKqGY?control=1" frameborder="0"
+                        allowfullscreen>
+                    </iframe>
+                </li>
+                <li>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/wN0x9eZLix4?control=0" frameborder="0"
+                        allowfullscreen>
+                    </iframe>
+                </li>
+            </ul>
+    </main>
+    <footer>
+        <p>
+            <small> © 2023 Ivan Anton</small>
+        </p>
+    </footer>
+</body>
+
+
+</html>
