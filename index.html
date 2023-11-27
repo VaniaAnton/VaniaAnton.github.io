@@ -63,12 +63,10 @@
         }
 
         #main-math {
-            border: 1px solid black;
-            width: 100px;
-            position: center;
-            margin: auto;
-            margin-top: 100px;
+            text-align: center;
             padding: 20px;
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
 
         p {
@@ -77,6 +75,12 @@
             font-weight: normal;
         }
     </style>
+    <!-- Include MathJax script -->
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <!-- Include MathJax configuration script -->
+    <script type="text/javascript" src="/Lab2/MathML-config.js"></script>
 </head>
 <body>
     <header>
@@ -162,22 +166,124 @@
             </ul>
         </section>
         <section id="main-math">
+            <h2>MathML</h2>
             <math xmlns="http://www.w3.org/1998/Math/MathML">
-                <msup>
-                  <mi>a</mi>
-                  <mn>2</mn>
-                </msup>
-                <mo>=</mo>
-                <msup>
-                  <mi>b</mi>
-                  <mn>2</mn>
-                </msup>
-                <mo>+</mo>
-                <msup>
-                  <mi>c</mi>
-                  <mn>2</mn>
-                </msup>
-              </math>
+                <semantics>
+                    <mrow>
+                        <mrow>
+                            <mo>(</mo>
+                            <mrow>
+                                <mtable>
+                                    <mtr>
+                                        <mtd>
+                                            <mi>U</mi>
+                                            <mo>(</mo>
+                                            <mi>t</mi>
+                                            <mo>)</mo>
+                                        </mtd>
+                                    </mtr>
+                                    <mtr>
+                                        <mtd>
+                                            <mi>V</mi>
+                                            <mo>(</mo>
+                                            <mi>t</mi>
+                                            <mo>)</mo>
+                                        </mtd>
+                                    </mtr>
+                                    <mtr>
+                                        <mtd>
+                                            <mi>W</mi>
+                                            <mo>(</mo>
+                                            <mi>t</mi>
+                                            <mo>)</mo>
+                                        </mtd>
+                                    </mtr>
+                                </mtable>
+                            </mrow>
+                            <mo>)</mo>
+                        </mrow>
+                        <mo>=</mo>
+                        <mrow>
+                            <mo>(</mo>
+                            <mrow>
+                                <mtable>
+                                    <mtr>
+                                        <mtd>
+                                            <mi>1</mi>
+                                        </mtd>
+                                        <mtd>
+                                            <mi>0</mi>
+                                        </mtd>
+                                        <mtd>
+                                            <mi>0</mi>
+                                        </mtd>
+                                    </mtr>
+                                    <mtr>
+                                        <mtd>
+                                            <mi>0</mi>
+                                        </mtd>
+                                        <mtd>
+                                            <mi>cos</mi>
+                                            <mi>Rt</mi>
+                                        </mtd>
+                                        <mtd>
+                                            <mo>-</mo>
+                                            <mi>sin</mi>
+                                            <mi>Rt</mi>
+                                        </mtd>
+                                    </mtr>
+                                    <mtr>
+                                        <mtd>
+                                            <mi>0</mi>
+                                        </mtd>
+                                        <mtd>
+                                            <mi>sin</mi>
+                                            <mi>Rt</mi>
+                                        </mtd>
+                                        <mtd>
+                                            <mi>cos</mi>
+                                            <mi>Rt</mi>
+                                        </mtd>
+                                    </mtr>
+                                </mtable>
+                            </mrow>
+                            <mo>)</mo>
+                        </mrow>
+                        <mrow>
+                            <mo>(</mo>
+                            <mrow>
+                                <mtable>
+                                    <mtr>
+                                        <mtd>
+                                            <mi>U</mi>
+                                            <mo>(</mo>
+                                            <mi>0</mi>
+                                            <mo>)</mo>
+                                        </mtd>
+                                    </mtr>
+                                    <mtr>
+                                        <mtd>
+                                            <mi>V</mi>
+                                            <mo>(</mo>
+                                            <mi>0</mi>
+                                            <mo>)</mo>
+                                        </mtd>
+                                    </mtr>
+                                    <mtr>
+                                        <mtd>
+                                            <mi>W</mi>
+                                            <mo>(</mo>
+                                            <mi>0</mi>
+                                            <mo>)</mo>
+                                        </mtd>
+                                    </mtr>
+                                </mtable>
+                            </mrow>
+                            <mo>)</mo>
+                        </mrow>
+                    </mrow>
+                </semantics>
+            </math>
         </section>
     </main>
     <footer>
