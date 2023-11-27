@@ -6,81 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
-    <style>
-        body {
-            background-color: rgb(219, 219, 223);
-            margin: 0;
-            padding: 0;
-        }
-        header{
-            font-family: "Times New Roman", Times, serif;
-            font-size: 15px;
-            font-weight: normal;
-            background-color: rgb(219, 219, 223);
-            padding: 20px;
-            border-bottom: 1px solid black;
-            border-radius: 10%;
-            border: 1px solid black;
-        }
-        header h1 {
-            text-align: center;
-            font-size: 50px;
-            margin: 0;
-        }
+    <link rel="stylesheet" href="/Lab2/style.css">
 
-        header nav, #main-service {
-            text-align: center;
-        }
-
-        header nav ul, #main-service ul , #main-info ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        header nav ul li , #main-service ul li, #main-info ul li {
-            display: inline-block;
-            margin: 0 10px;
-        }
-
-        header nav ul li a, #main-service ul li a, #main-info ul li a{
-            text-decoration: none;
-            color: black;
-            font-size: 20px;
-        }
-
-        header nav ul li a:hover, #main-service ul li a:hover, #main-info ul li a:hover {
-            color: darkgreen;
-        }
-        header nav ul li a:active, #main-service ul li a:active, #main-info ul li a:active {
-            color: darkred;
-        }
-
-        #main-text, #main-info, footer , #main-service{
-            text-align: center;
-            padding: 20px;
-            margin-top: 5px;
-        }
-
-        #main-math {
-            text-align: center;
-            padding: 20px;
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
-
-        p {
-            font-family: "Times New Roman", Times, serif;
-            font-size: 18px;
-            font-weight: normal;
-        }
-    </style>
     <!-- Include MathJax script -->
     <script type="text/javascript" async
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
     </script>
     <!-- Include MathJax configuration script -->
     <script type="text/javascript" src="/Lab2/MathML-config.js"></script>
+
 </head>
 <body>
     <header>
@@ -284,6 +218,29 @@
                     </mrow>
                 </semantics>
             </math>
+        </section>
+        <section id="main-svg">
+            <h2>SVG</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="122" viewBox="0 0 150 122" fill="none">
+                <path class="diamondSc tulip" d="M111.919 63.6524L17.6264 64.0349L99.4778 17.2196L111.919 63.6524Z" fill="#DDBB43" stroke="black" stroke-width="5"/>
+                <rect class="diamondSc tulip" x="8.49993" y="68.5" width="103" height="51" fill="#BFB028" stroke="black" stroke-width="5"/>
+                <path class="diamondSc tulip" d="M98.5 84C98.5 88.0286 95.0346 91.5 90.5 91.5C85.9654 91.5 82.5 88.0286 82.5 84C82.5 79.9714 85.9654 76.5 90.5 76.5C95.0346 76.5 98.5 79.9714 98.5 84Z" fill="#D9D9D9" stroke="black" stroke-width="5"/>
+                <path class="diamondSc tulip" d="M42.5 94C42.5 100.269 37.2108 105.5 30.5 105.5C23.7892 105.5 18.5 100.269 18.5 94C18.5 87.7307 23.7892 82.5 30.5 82.5C37.2108 82.5 42.5 87.7307 42.5 94Z" fill="#D9D9D9" stroke="black" stroke-width="5"/>
+                <style>
+                    .diamondSc {
+                        animation-name: diamondScale;
+                        animation-duration: 4s;
+                        animation-iteration-count: infinite;
+                        transform-origin: 50% 50%;
+                    }
+                    @keyframes diamondScale {
+                        0%   { transform: scale(0.5); }
+                        50%  { transform: scale(1.0); }
+                        100% { transform: scale(0.5); }
+                    }
+                </style>
+            </svg>
+              
         </section>
     </main>
     <footer>
