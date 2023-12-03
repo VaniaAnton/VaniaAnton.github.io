@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
-    <link rel="stylesheet" href="/Lab2/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <!-- Include MathJax script -->
     <script type="text/javascript" async
@@ -14,6 +14,7 @@
     </script>
     <!-- Include MathJax configuration script -->
     <script type="text/javascript" src="/Lab2/MathML-config.js"></script>
+    <script src="script.js"></script>
 
 </head>
 <body>
@@ -32,9 +33,12 @@
         </nav>
     </header>
     <main>
-        <section id="main-text" >
-            <img src="images/cpp-icon.png" alt="C++ icon" width="300" height="300">
-            <h2>C++ Application developer</h2>
+        <!-- <section id="main-text" onclick="changeImageWithLoop()">-->
+        <section id="main-text">
+            <img id="logo" src="images/cpp-icon.png" alt="C++ icon" width="300" height="300">
+            <h2>Application developer</h2>
+            <button onclick="navigateBackward()">Previous</button>
+            <button onclick="navigateForward()">Next</button>
         </section>
         <hr role="presentation">
         <section id="main-info" dir="ltr">

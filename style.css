@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(219, 219, 223);
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    font-weight: normal;
+    background-color: rgb(219, 219, 223);
+    padding: 20px;
+    border-bottom: 1px solid black;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+header nav, #main-service {
+    text-align: center;
+}
+
+header nav ul, #main-service ul , #main-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li , #main-service ul li, #main-info ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header nav ul li a, #main-service ul li a, #main-info ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+header nav ul li a:hover, #main-service ul li a:hover, #main-info ul li a:hover {
+    color: darkgreen;
+}
+header nav ul li a:active, #main-service ul li a:active, #main-info ul li a:active {
+    color: darkred;
+}
+
+#main-text, #main-info, footer , #main-service{
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+#main-math, #main-svg {
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+}
